@@ -145,6 +145,7 @@ taskList.addEventListener('click', (e) => {
 		e.target.classList.add('active-list');
 		ui.clearList(todoContainer);
 		ui.renderTodos(selectedList);
+		ui.countTodos(selectedList);
 	}
 });
 // Delete a list
